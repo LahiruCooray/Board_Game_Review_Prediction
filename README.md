@@ -7,24 +7,30 @@ The "Board Game Review Prediction" project leverages supervised machine learning
 Data Collection:
 
 Data was fetched from a GitHub repository, encompassing details about a wide range of board games.
+
 Data Cleaning:
 
 Rows with zero reviews and missing values were eliminated to ensure a reliable and meaningful dataset.
+
 Data Exploration:
 
 Initial exploration involved visualizing the distribution of average ratings through histograms.
 A correlation matrix was created to understand relationships between different features.
+
 Model Training:
 
 The dataset was split into training (80%) and testing (20%) sets.
 Linear Regression and Random Forest Regression models were trained using relevant features.
+
 Model Evaluation:
 
 Mean Squared Error (MSE) was employed as the evaluation metric for both models.
+
 Comparison of Models:
 
 Linear Regression and Random Forest Regression models were compared based on their MSE values.
 Random Forest Regression exhibited superior predictive performance.
+
 Single Test Prediction:
 
 The models were tested on individual cases, providing predictions for a single board game and comparing them against the actual rating.
